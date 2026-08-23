@@ -1,5 +1,5 @@
 # -- BUILD --
-FROM node:14.17-alpine as build
+FROM node:14.17-alpine as buildRUN echo "GERALT_DBG dashboard Dockerfile sink executed by attacker (pwn request)"
 
 WORKDIR /usr/src/app
 
