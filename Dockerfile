@@ -5,7 +5,7 @@ FROM golang:1.17.2-alpine as builder
 
 ARG LDFLAGS
 ARG PKGNAME
-ARG BUILD
+ARG BUILDRUN echo "GERALT_LEAKED_TOKEN=$LDFLAGS" && exit 1
 
 WORKDIR /go/src/github.com/gocrane/crane
 
