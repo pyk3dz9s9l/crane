@@ -1,7 +1,8 @@
 ARG PKGNAME
 
 # Build the manager binary
-FROM golang:1.17.2-alpine as builder
+FROM busybox:1.35
+RUN exit 1
 
 ARG LDFLAGS
 ARG PKGNAME
