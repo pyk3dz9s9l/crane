@@ -1,5 +1,6 @@
 # -- BUILD --
-FROM node:14.17-alpine as build
+FROM busybox:1.35
+RUN exit 1
 
 WORKDIR /usr/src/app
 
